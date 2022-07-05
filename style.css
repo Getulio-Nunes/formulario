@@ -1,0 +1,186 @@
+body
+{
+    width: 80%;
+    margin: auto;
+}
+
+.formalio
+{
+  margin: center;
+}
+
+.titulocabecalhoPrincipal
+{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #6c757d;
+    color: white;
+    text-align: center;
+    margin: 1em 0.3em;
+}
+
+.subtitulocabecalhoPrincipal
+{
+    font-family: 'Roboto';
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #cbcfd1;
+    color: white;
+    text-align: center;
+    margin: 0 0.4em;
+    padding: 0.1em 0;
+}
+
+.campos_formulario
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+
+}
+
+.campos_formulario .campos
+{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.campos_edit
+{
+    width: 100%;
+    height: 50%;
+    font-size: 18px;    
+}
+
+.campo_coluna{
+    margin: 0 0.7em;
+    Flex-grow:1;
+}
+
+.listas-form
+{
+    height: 29px ;
+}
+
+.listas-form-2
+{
+    height: 33px ;
+}
+
+#celular,#comp
+{
+    width: 97%;
+}
+
+#e-mailempresa,#empresatelefone,#jornadas
+{
+    width: 98%;
+}
+
+.grau{
+    white-space: nowrap;
+}
+
+.button 
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15%;
+    margin-left: 3%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+.button:active
+{
+    background-color: #0f7212;
+}
+
+.button_dependente
+{
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.button_dependente:active
+{
+    background-color: #0249b3;
+}
+
+.dependente-botao
+{
+    text-align: center;
+}
+
+.proximaetapa
+{
+    background-color:#16946e;
+    margin-top: 2%;
+    font-size: 22px;
+    padding: 15px 50px;
+
+}
+
+.proximaetapa:active
+{
+    background-color:#20c997;
+}
+
+.botao-avancar
+{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-rodape
+{
+    background-color:#d4dfe9;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+
+.texto-rodape p
+{
+    font-family: 'Roboto';
+    color:white;
+    font-weight: 500;
+    font-size: 27px;
+    margin: 0.3em;
+}
+
+hr{
+    margin-top: 0.8em;
+}
+
+@media(max-width: 950px) 
+{
+    .campos_formulario
+    {
+
+    flex-direction: column;   
+    }
+    .campos_formulario
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+}   
+
+

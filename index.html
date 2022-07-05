@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="formalio">
+        <div class="container">
+            <h1 class="titulocabecalhoPrincipal">ficha de associado</h1>
+            <h2 class="subtitulocabecalhoPrincipal">dados pessoais</h2>
+            <section class="campos_formulario">
+                <div class="campo_coluna">
+                    <label class="campos" for="nome">Nome*</label><br>
+                    <input class="campos_edit" type="text" id="nome" name="nome"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="e-mail">E-mail*</label><br>
+                    <input class="campos_edit" type="email" id="e-mail" name="e-mail"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="data">Nascido em*</label><br>
+                    <input class="campos_edit listas-form" type="date" id="data" name="date"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos grau" for="grau">Grau de instrução*</label><br>
+                    <select class="campos_edit listas-form-2"></selec>
+                        <option value="ANALIFABETO">01- ANALFABETO</option>
+                        <option value="ANALIFABETO">1º GRAU</option>
+                        <option value="ANALIFABETO">2º GRAU</option>
+                        <option value="ANALIFABETO">SUPERIOR</option>
+                        <option value="ANALIFABETO">PÓS-GRADUADO</option>
+                        <option value="ANALIFABETO">MESTRADO</option>
+                        <option value="ANALIFABETO">DOUTORADO</option>
+                        <option value="ANALIFABETO">PÓS GRADUADO</option>
+                    </select><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="sexo">Sexo*</label><br>
+                    <select class="campos_edit listas-form-2"></selec>
+                        <option value="ANALIFABETO">M</option>
+                        <option value="ANALIFABETO">F</option>
+                    </select><br>
+                </div>
+            </section>
+            <section class="campos_formulario">
+                <div class="campo_coluna">
+                    <label class="campos" for="nome">Nome da mãe*</label><br>
+                    <input class="campos_edit" type="text" id="nome" name="nome"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="nome">Nome do pai*</label><br>
+                    <input class="campos_edit" type="text" id="nome" name="nome"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="grau">Estao civil*</label><br>
+                    <select class="campos_edit listas-form"></selec>
+                        <option value="ANALIFABETO">01 - SOLTEIRO</option>
+                        <option value="ANALIFABETO">02 - CASADO</option>
+                        <option value="ANALIFABETO">03 - VIÚVO</option>
+                        <option value="ANALIFABETO">04 - DESQUITADO</option>
+                        <option value="ANALIFABETO">05 - DIVORCIADO</option>
+                        <option value="ANALIFABETO">06 - OUTROS</option>
+                    </select>
+                </div>
+
+                <div class="campo_coluna">
+                    <label class="campos" for="telefone">Telefone*</label><br>
+                    <input class="campos_edit" type="tel" id="telefone" name="telefone"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="celular">Celular*</label><br>
+                    <input class="campos_edit" type="tel" id="celular" name="celular"><br>
+                    <div>
+
+            </section>
+            <h2 class="subtitulocabecalhoPrincipal">Endereçamento</h2>
+
+            <section class="campos_formulario">
+                <div class="campo_coluna">
+                    <label class="campos" for="nome">CEP*</label><br>
+                    <input class="campos_edit" type="text" id="nome" name="nome"><br>
+                </div>
+                <div class="botao">
+                    <button class="button">Buscar</button>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos grau" for="grau">Endereço*</label><br>
+                    <select class="campos_edit listas-form"></selec>
+                        <option value="ANALIFABETO">ALAMEDA</option>
+                        <option value="ANALIFABETO">AVENIDA</option>
+                        <option value="ANALIFABETO">BECO</option>
+                        <option value="ANALIFABETO">ESTRADA</option>
+                        <option value="ANALIFABETO">FAZENDA</option>
+                        <option value="ANALIFABETO">PRAÇA</option>
+                        <option value="ANALIFABETO">RODOVIA</option>
+                        <option value="ANALIFABETO">RUA</option>
+                        <option value="ANALIFABETO">TRAVESSA</option>
+                        <option value="ANALIFABETO">VI</option>
+                    </select><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="numero"></label><br>
+                    <input class="campos_edit " type="text" id="numero" name="text"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="numero">Núm*</label><br>
+                    <input class="campos_edit " type="text" id="numero" name="text"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="comp">Complemento*</label><br>
+                    <input class="campos_edit" type="text" id="comp" name="text"><br>
+                    <div>
+            </section>
+
+            <section class="campos_formulario">
+
+                <div class="campo_coluna">
+                    <label class="campos" for="bairro">Bairro*</label><br>
+                    <input class="campos_edit " type="text" id="bairro" name="text"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="cidade">Cidade*</label><br>
+                    <input class="campos_edit " type="text" id="cidade" name="text"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="numero">Núm*</label><br>
+                    <input class="campos_edit " type="text" id="numero" name="text"><br>
+                </div>
+                <div class="campo_coluna">
+                    <label class="campos" for="sexo">UF*</label><br>
+                    <select class="campos_edit listas-form-2"></selec>
+                        <option value="ANALIFABETO">MG</option>
+                        <option value="ANALIFABETO">AC</option>
+                        <option value="ANALIFABETO">PR</option>
+                        <option value="ANALIFABETO">AL</option>
+                        <option value="ANALIFABETO">AM</option>
+                        <option value="ANALIFABETO">AP</option>
+                        <option value="ANALIFABETO">GO</option>
+                        <option value="ANALIFABETO">MT</option>
+                        <option value="ANALIFABETO">PA</option>
+                        <option value="ANALIFABETO">DF</option>
+                    </select><br>
+                </div>
+        </div>
+        </section>
+        <h2 class="subtitulocabecalhoPrincipal">Documentação</h2>
+
+        <section class="campos_formulario">
+            <div class="campo_coluna">
+                <label class="campos" for="cpf">CPF*</label><br>
+                <input class="campos_edit " type="text" id="cpf" name="cpf"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="ident">identidade*</label><br>
+                <input class="campos_edit " type="text" id="ident" name="ident"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="oemissor">Órgão emissor*</label><br>
+                <input class="campos_edit " type="text" id="oemissor" name="oemissor"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="te">Título Eleitoral*</label><br>
+                <input class="campos_edit " type="text" id="te" name="te"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="zona">Zona*</label><br>
+                <input class="campos_edit " type="text" id="zona" name="zona"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="secao">Seção*</label><br>
+                <input class="campos_edit " type="text" id="secao" name="secao"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="ctps">CTPS*</label><br>
+                <input class="campos_edit " type="text" id="ctps" name="ctps"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="comp">Complemento*</label><br>
+                <input class="campos_edit" type="text" id="comp" name="comp"><br>
+                <div>
+        </section>
+        <h2 class="subtitulocabecalhoPrincipal">Estabelecimento de ensino</h2>
+
+        <section class="campos_formulario">
+            <div class="campo_coluna">
+                <label class="campos" for="nome">CNPJ*</label><br>
+                <input class="campos_edit" type="text" id="nome" name="nome"><br>
+            </div>
+            <div class="botao">
+                <button class="button">Buscar</button>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="empresanome">Nome*</label><br>
+                <input class="campos_edit " type="text" id="empresanome" name="empresanome"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="e-mailempresa">E-mail*</label><br>
+                <input class="campos_edit" type="email" id="e-mailempresa" name="e-mailempresa"><br>
+            </div>
+        </section>
+
+        <section class="campos_formulario">
+            <div class="campo_coluna">
+                <label class="campos" for="nome">CEP*</label><br>
+                <input class="campos_edit" type="text" id="nome" name="nome"><br>
+            </div>
+            <div class="botao">
+                <button class="button">Buscar</button>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos grau" for="grau">Endereço*</label><br>
+                <select class="campos_edit listas-form"></selec>
+                    <option value="ANALIFABETO">ALAMEDA</option>
+                    <option value="ANALIFABETO">AVENIDA</option>
+                    <option value="ANALIFABETO">BECO</option>
+                    <option value="ANALIFABETO">ESTRADA</option>
+                    <option value="ANALIFABETO">FAZENDA</option>
+                    <option value="ANALIFABETO">PRAÇA</option>
+                    <option value="ANALIFABETO">RODOVIA</option>
+                    <option value="ANALIFABETO">RUA</option>
+                    <option value="ANALIFABETO">TRAVESSA</option>
+                    <option value="ANALIFABETO">VI</option>
+                </select><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="numero"></label><br>
+                <input class="campos_edit " type="text" id="numero" name="text"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="numero">Núm*</label><br>
+                <input class="campos_edit " type="text" id="numero" name="text"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="comp">Complemento*</label><br>
+                <input class="campos_edit" type="text" id="comp" name="text"><br>
+                <div>
+        </section>
+
+        <section class="campos_formulario">
+            <div class="campo_coluna">
+                <label class="campos" for="nome">Bairro*</label><br>
+                <input class="campos_edit" type="text" id="nome" name="nome"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos grau" for="grau">Cidade*</label><br>
+                <select class="campos_edit listas-form"></selec>
+                    <option value="ANALIFABETO">ABAETE</option>
+                    <option value="ANALIFABETO">BELHO HORIZONTE</option>
+                    <option value="ANALIFABETO">NOVA LIMA</option>
+                    <option value="ANALIFABETO">ESTRADA</option>
+                    <option value="ANALIFABETO">FAZENDA</option>
+                    <option value="ANALIFABETO">BAMBUI</option>
+                    <option value="ANALIFABETO">FERROS</option>
+                    <option value="ANALIFABETO">FLORESTAL</option>
+                    <option value="ANALIFABETO">LAGOA SANTA</option>
+                    <option value="ANALIFABETO">PEDRA BONITA</option>
+                </select><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="grau">Cidade da efetiva prestação de serviço *</label><br>
+                <select class="campos_edit listas-form"></selec>
+                    <option value="ANALIFABETO">ABAETE</option>
+                    <option value="ANALIFABETO">BELHO HORIZONTE</option>
+                    <option value="ANALIFABETO">NOVA LIMA</option>
+                    <option value="ANALIFABETO">ESTRADA</option>
+                    <option value="ANALIFABETO">FAZENDA</option>
+                    <option value="ANALIFABETO">BAMBUI</option>
+                    <option value="ANALIFABETO">FERROS</option>
+                    <option value="ANALIFABETO">FLORESTAL</option>
+                    <option value="ANALIFABETO">LAGOA SANTA</option>
+                    <option value="ANALIFABETO">PEDRA BONITA</option>
+                </select><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="empresatelefone">Telefone*</label><br>
+                <input class="campos_edit" type="tel" id="empresatelefone" name="empresatelefone"><br>
+                <div>
+        </section>
+
+        <section class="campos_formulario">
+            <div class="campo_coluna">
+                <label class="campos" for="data">Admissão em*</label><br>
+                <input class="campos_edit listas-form" type="date" id="data" name="date"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos grau" for="grau">Cargo*</label><br>
+                <select class="campos_edit listas-form-2"></selec>
+                    <option value="ANALIFABETO">ADESTRADOR</option>
+                    <option value="ANALIFABETO">ADVOGADO</option>
+                    <option value="ANALIFABETO">AGENTE COMERCIAL</option>
+                    <option value="ANALIFABETO">CONSULTOR</option>
+                    <option value="ANALIFABETO">ASSISTENTE</option>
+                    <option value="ANALIFABETO">MESTRADO</option>
+                    <option value="ANALIFABETO">REPORTER</option>
+                    <option value="ANALIFABETO">PROFESSOR</option>
+                </select><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="jornadas">Jornada de trabalho semanal (h) *
+                </label><br>
+                <input class="campos_edit" type="text" id="jornadas" name="jornadas"><br>
+            </div>
+        </section>
+
+        <h2 class="subtitulocabecalhoPrincipal">Dependente</h2>
+        <section class="campos_formulario">
+            <div class="campo_coluna">
+                <label class="campos" for="nome">Nome*</label><br>
+                <input class="campos_edit" type="text" id="nome" name="nome"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos grau" for="grau">Parentesco*</label><br>
+                <select class="campos_edit listas-form-2"></selec>
+                    <option value="ANALIFABETO">COMPANHEIRO</option>
+                    <option value="ANALIFABETO">CÔNJUGE</option>
+                    <option value="ANALIFABETO">ENTEADA</option>
+                    <option value="ANALIFABETO">FILHO</option>
+                    <option value="ANALIFABETO">IRMÃO</option>
+                    <option value="ANALIFABETO">MÃE</option>
+                    <option value="ANALIFABETO">NETO</option>
+                    <option value="ANALIFABETO">PAI</option>
+                    <option value="ANALIFABETO">SOBRINHO</option>
+                </select><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos grau" for="grau">Sexo*</label><br>
+                <select class="campos_edit listas-form-2"></selec>
+                    <option value="MASCULINO">MASCULINO</option>
+                    <option value="FEMININO">FEMININO</option>
+                </select><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="data">Nascido em*</label><br>
+                <input class="campos_edit listas-form" type="date" id="data" name="date"><br>
+            </div>
+            <div class="campo_coluna">
+                <label class="campos" for="sexo">Estado Civil*</label><br>
+                <select class="campos_edit listas-form-2"></selec>
+                    <option value="ANALIFABETO">01 - SOLTEIRO</option>
+                    <option value="ANALIFABETO">02 - CASADO</option>
+                    <option value="ANALIFABETO">03 - VIÚVO</option>
+                    <option value="ANALIFABETO">04 - DESQUITADO</option>
+                    <option value="ANALIFABETO">05 - DIVORCIADO</option>
+                    <option value="ANALIFABETO">06 - OUTROS</option>
+                </select><br>
+            </div>
+
+        </section>
+
+        <div class="dependente-botao">
+            <button class="button_dependente">Gravar dependente</button>
+        </div>
+        <hr>
+
+        <div class="botao-avancar">
+            <button class="button_dependente proximaetapa">Enviar para próxima etapa</button>
+        </div>
+        
+
+        <div class="texto-rodape">
+            <p>Sindicato dos Auxiliares de Administração Escolar do Estado de Minas Gerais</p>
+            <p>Endereço: Rua Hermilo Alves, 335 - Santa Tereza - Belo Horizonte/MG</p>
+            <p>Cep: 31010-070 Contato: |31| 3057-8200</p>
+        </div> 
+
+        </div>
+    </header>
+
+</body>
+
+</html>
