@@ -29,7 +29,7 @@ body
     background-color: #cbcfd1;
     color: white;
     text-align: center;
-    margin: 0 0.4em;
+    margin: 0 0.7em;
     padding: 0.1em 0;
 }
 
@@ -177,6 +177,12 @@ hr{
     margin: 0;  
     }
 
+    .subtitulocabecalhoPrincipal
+    {
+        margin-left: 2.7%;
+        width: 96.5%;
+        padding: 0.5em 0;
+    }
     .campos_formulario
     {
         width: 100%;
@@ -200,7 +206,26 @@ hr{
     {
         margin-top: 1em;
     }
+  
+    #comp,#celular,#empresatelefone,#jornadas,#e-mailempresa
+    {
+        
+        width: 100%;
+    }
+
+    #data
+    {
+        width: 101%;
+    }
+
+    .listas-form-2
+    {
+        width: 102.2%;
+    }
+
+    .listas-form
+    {
+        width: 102.2%;
+    }
 
 }   
-
-
